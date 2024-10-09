@@ -1,3 +1,0 @@
-ALTER TABLE feature_grants
-ALTER COLUMN "type"
-DROP NOT NULL;

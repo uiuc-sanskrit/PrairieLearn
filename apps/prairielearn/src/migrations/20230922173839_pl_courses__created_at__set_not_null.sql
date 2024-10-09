@@ -1,3 +1,0 @@
-ALTER TABLE pl_courses
-ALTER COLUMN created_at
-SET NOT NULL;

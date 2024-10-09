@@ -1,1 +1,0 @@
-CREATE INDEX assessment_instances_assessment_id_modified_at_idx ON assessment_instances (assessment_id, modified_at);

@@ -1,7 +1,7 @@
 {
   "uuid": "28760b11-beb1-4507-bb0a-a15bc8eaf091",
-  "name": "QA 101",
-  "title": "Test Course",
+  "name": "SANSKRIT 101",
+  "title": "Test Sanskrit Course",
   "options": { "useNewQuestionRenderer": true },
   "assessmentSets": [],
   "assessmentModules": [
@@ -12,38 +12,12 @@
     { "name": "Module5", "heading": "Module 5" }
   ],
   "topics": [
-    { "name": "Algebra", "color": "red3", "description": "Basic algebra." },
+    { "name": "Sandhi", "color": "red3", "description": "Basic sandhis." },
     {
-      "name": "Calculus",
+      "name": "Sentences",
       "color": "yellow3",
-      "description": "Single and multiple variable calculus."
-    },
-    { "name": "Vectors", "color": "blue3", "description": "Vector algebra in 3D." },
-    {
-      "name": "Functions",
-      "color": "pink3",
-      "description": "Writing and calling functions in code."
-    },
-    {
-      "name": "Energy",
-      "color": "purple3",
-      "description": "Mechanical energy; kinetic and potential."
-    },
-    {
-      "name": "Particle kinetics",
-      "color": "red3",
-      "description": "Newton's equation for point masses."
-    },
-    { "name": "Coding", "color": "turquoise3", "description": "Writing computer code." },
-    {
-      "name": "Center of mass",
-      "color": "green3",
-      "description": "Calculating the center of mass for irregular bodies and systems."
-    },
-    { "name": "Linear algebra", "color": "brown3", "description": "Matrix math." },
-    { "name": "Test", "color": "gray3", "description": "Feature examples." },
-    { "name": "Names", "color": "red2", "description": "Questions to help you learn names." },
-    { "name": "Statistics", "color": "blue2", "description": "Probability distributions." }
+      "description": "Single and multiple phrase sentences."
+    }
   ],
   "tags": [
     { "name": "mwest", "color": "gray1", "description": "Question originally written by mwest" },

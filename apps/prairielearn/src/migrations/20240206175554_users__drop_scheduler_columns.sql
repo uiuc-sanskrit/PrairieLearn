@@ -1,8 +1,0 @@
-ALTER TABLE users
-DROP COLUMN IF EXISTS receive_email;
-
-ALTER TABLE users
-DROP COLUMN IF EXISTS receive_sms;
-
-ALTER TABLE users
-DROP COLUMN IF EXISTS sms_number;
