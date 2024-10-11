@@ -1,1 +1,0 @@
-The value of params.a is {{params.a}}.
