@@ -10,7 +10,8 @@
     {
       "questions": [
         { "id": "addNumbers", "points": 1, "maxPoints": 5 },
-        { "id": "basicSandhi", "points":1, "maxPoints":2}
+        { "id": "basicSandhi", "points":1, "maxPoints":2},
+	{ "id": "phrasesMCQ", "points":1, "maxPoints":10}
       ]
     }
   ]
