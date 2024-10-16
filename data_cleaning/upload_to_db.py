@@ -7,7 +7,9 @@
 # connect to MySQL database
 import os
 import mysql.connector
+import csv
 from dotenv import load_dotenv
+from tqdm import tqdm
 load_dotenv()
 
 # connect to MySQL database
@@ -20,8 +22,13 @@ db = mysql.connector.connect(
 print("connected to MySQL database")
 cursor = db.cursor()
 
-# print all tables
-cursor.execute("SHOW TABLES")
-tables = cursor.fetchall()
-for table in tables:
-    print(table)
+# Insert CSV using column names
+with open('data_cleaning/sandhi_corpus.csv') as csvfile:
+    csvreader = csv.reader(csvfile)
+    next(csvreader)
+    for row in tqdm(csvreader):
+      cursor.execute("INSERT INTO sandhi_playground (joint_word, split_word) VALUES (%s, %s)", (row[0], row[1]))
+
+db.commit()
+print("uploaded sandhi CSV to MySQL database")
+cursor.close()
